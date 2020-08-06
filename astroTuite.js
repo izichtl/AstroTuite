@@ -34,7 +34,7 @@ window.onload = function() {
             'Companheiro, Inteligente e Estável',
             'Sensível, Carinhoso e Emotivo',
             'Forte, Livre e Extravagante',
-            'Tímido, Perfeccionista e Observado',
+            'Tímido, Perfeccionista e Observador',
             'Educado, Gentil e Charmoso',
             'Genioso, Sensual e Meticuloso',
             'Disciplinado, Alegre e Aventureiro ',
@@ -91,14 +91,11 @@ window.onload = function() {
     //gera um tuite aleatorio
     function randomTuite() {
         var tuitesLinks = [
-            'https://twitter.com/yrlnrd/status/1224645672634372097',
-            'https://twitter.com/oraporra/status/1223765295271174144',
-            'https://twitter.com/soaresivinha/status/1224454928258592769',
-            'https://twitter.com/anacronices/status/1130961931102228480',
+            
             'https://twitter.com/talitacabrit4/status/1224359539019059206',
-            'https://twitter.com/KellenHortegal/status/1224713570115637255',
-            'https://twitter.com/Laysafneves/status/1224724250650648576',
+            'https://twitter.com/mbottan/status/1288655947150303232',
             'https://twitter.com/arrombida/status/1223968772639416320',
+            'https://twitter.com/MarcelaChristie/status/1291394593108393985',
         ];
         var selecionado = Math.floor((Math.random() * tuitesLinks.length));
         linkSelecionado = tuitesLinks[selecionado];

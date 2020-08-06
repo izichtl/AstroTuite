@@ -7,14 +7,15 @@ body {
     display: flex;
     flex-direction: column;
     width: 450px;
-    height: 800px;
+    height: 720px;
     border-style: solid;
-    border-width: .5px;
+    border-width: 2px;
     border-color: purple;
     border-radius: 10px;
     align-items: center;
     box-shadow: 3px 4px 4px rgb(176, 176, 176);
-    color: purple
+    color: purple;
+    margin: auto
 }
 
 .logo {
@@ -111,16 +112,14 @@ p {
     background-color: purple;
     color: white;
     padding: 10px;
-    border: none;
+    border: 1px solid purple;
     border-radius: 5px;
 }
 
 .minhaPrevisao:hover {
     background-color: white;
     color: purple;
-    border-style: solid;
-    border-width: 1px;
-    border-color: purple;
+    border: 1px solid purple;
     cursor: pointer;
 }
 
@@ -134,7 +133,7 @@ p {
     background-color: purple;
     color: white;
     padding: 10px;
-    border: none;
+    border: 1px solid purple;
     border-radius: 5px;
 }
 
